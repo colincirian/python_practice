@@ -1,5 +1,5 @@
-import math
 import random
+import math
 
 a = 0
 b = 5
@@ -73,3 +73,23 @@ print(list)
 
 tuple = ("civic", "m3 comp", "gt3rs", "typer")
 print(tuple)
+
+favorite_fruits = ["grapes", "strawberry", "pears"]
+
+favorite_fruits.append("banana")
+favorite_fruits.append("kiwi")
+
+favorite_fruits.pop()
+
+print(favorite_fruits)
+
+my_empty_dict = {}
+
+person = {'name': "colin", "age": "22", "lastname": "cirian"}
+
+print(person["age"])
+
+person["age"] = "23"
+print(person["age"])
+
+print(person.get("height"))
