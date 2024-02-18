@@ -1,5 +1,10 @@
 import random
 import math
+import os
+import pygame
+from os import listdir
+from os.path import isfile, join 
+pygame.init()
 
 a = 0
 b = 5
@@ -93,3 +98,6 @@ person["age"] = "23"
 print(person["age"])
 
 print(person.get("height"))
+
+for i in range(WIDTH // +1):
+    for j in range(HEIGHT // + 1):
