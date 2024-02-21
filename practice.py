@@ -1,10 +1,5 @@
 import random
 import math
-import os
-import pygame
-from os import listdir
-from os.path import isfile, join 
-pygame.init()
 
 a = 0
 b = 5
@@ -99,5 +94,35 @@ print(person["age"])
 
 print(person.get("height"))
 
-for i in range(WIDTH // +1):
-    for j in range(HEIGHT // + 1):
+my_dict2 = {"name": "Jimmy", "favorite color": "blue"}
+del my_dict2["favorite color"]
+print(my_dict2)
+
+my_empty_set = ()
+
+my_set = {1, 2, 3, 4, 5}
+my_set.add("hello")
+my_set.remove(3)
+print(my_set)
+
+book_dict = {
+    "title": "Python Programming",
+      "author": "codeprowess",
+        "year": 2023}
+
+book_dict["year"] = 2024
+print(book_dict)
+
+my_movie_set = {"Godfather", "Spider-man", "Django", "Iron Claw", "Inception"}
+my_movie_set.add("Inception")
+print(my_movie_set)
+
+colors = {"blue", "green", "red", "yellow", "purple", "pink"}
+colors.add("green")
+print(colors)
+
+my_tuple = (1, 2, 3, 4, 5)
+new_element = 6
+
+new_tuple = my_tuple + (new_element,)
+print(new_tuple)
