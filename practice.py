@@ -113,7 +113,7 @@ book_dict = {
 book_dict["year"] = 2024
 print(book_dict)
 
-my_movie_set = {"Godfather", "Spider-man", "Django", "Iron Claw", "Inception"}
+my_movie_set = {"Godfather", "Spider-man", "Django", "Iron Claw", "Inception"} #SETS
 my_movie_set.add("Inception")
 print(my_movie_set)
 
@@ -126,3 +126,8 @@ new_element = 6
 
 new_tuple = my_tuple + (new_element,)
 print(new_tuple)
+
+
+#LIST NESTED INSIDE A LIST
+my_nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(my_nested_list[0][1])
