@@ -39,4 +39,5 @@ else:
 
 # Write a Python program that first asks the user if they are a vegetarian. If yes, ask if they eat eggs. Display appropriate meal choices based on their answers.
     
-
+name = input("Name: ")
+print("Hello, " + name)
