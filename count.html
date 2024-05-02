@@ -6,19 +6,18 @@
   </head>
 
   <body>
-    <div>
       <script>
-        let counter = 0;
-
-        function count() {
-            counter++;
-            alert(counter);
-        }
+        document.addEventListener("DOMContentLoaded", () => {
+          let counterValue = 0
+          const counterElement = document.querySelector('h1');
+          document.querySelector("button").addEventListener("click", function() {
+              counterValue++;
+              counterElement.textContent = counterValue;
+            });
+        });
       </script>
 
-      <h1> Hello! </h1>
-
-      <button onclick="count()">COUNT</button>
-    </div>
+      <h1>0</h1>
+      <button>click here</button>
   </body>
 </html>
