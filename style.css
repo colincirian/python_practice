@@ -1,0 +1,20 @@
+button {
+    background-color: red;
+    color: white;
+    border-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+body {
+    background-color: black;
+}

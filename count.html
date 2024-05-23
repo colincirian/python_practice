@@ -3,18 +3,19 @@
 <html leng="en">
   <head>
     <title>Javascript Practice</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
       <script>
         document.addEventListener("DOMContentLoaded", () => {
-          let counterValue = 0
+          let counterValue = 0;
           const counterElement = document.querySelector('h1');
-          document.querySelector("button").addEventListener("click", function() {
-              counterValue++;
-              counterElement.textContent = counterValue;
-            });
-        });
+          document.querySelector('button').addEventListener('click', function() {
+            counterValue++;
+            counterElement.textContent = counterValue;
+          })
+        })
       </script>
 
       <h1>0</h1>
